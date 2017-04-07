@@ -1,0 +1,46 @@
+.us .us-l .flower li{
+	width: 436px;
+	height: 125px;
+	float: left;
+	padding-top:35px;
+	border-bottom: 1px solid #ccc;
+	margin-top: 0;
+}
+.us .us-l .show{
+	display: block;
+}
+.us .us-l ul{
+	display: none;
+}
+.us .us-l .flower{
+	margin-top: 54px;
+}
+.us .us-l .flower .bord{
+	width: 416px;
+	border-left:1px solid #ccc;
+	padding-left: 20px;
+}
+.us .us-l .flower li .font{
+	width: 288px;
+	margin-left: 20px;
+}
+.us .us-l .flower li .font h4{
+	font-size: 17px;
+	font-weight: normal;
+	margin-top: 6px;
+	color: #585858;
+}
+.us .us-l .flower li .font b{
+	font-size: 12px;
+	font-weight: normal;
+	color:#999;
+}
+.us .us-l .flower li .font b:hover{
+	color: #000;
+}
+.us .us-l .num .num-con ul li{
+	margin-top: 0;
+}
+.us .us-l .num-t{
+	margin-top: 50px;
+}

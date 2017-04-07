@@ -1,0 +1,268 @@
+
+.exhibition{
+  margin-top:22px;
+}
+.exhibition .ex-l{
+  width:442px;
+}
+.exhibition .ex-l ul li{
+  float: left;
+}
+.exhibition .ex-r{
+  width:744px;
+}
+.exhibition .ex-r ul li{
+  float: left;
+}
+.exhibition ul .wid:hover img{
+  transform:scale(1.1);
+  transition:1.5s ease all;
+}
+.exhibition ul .wid img{
+  width: 100%;
+  height: 100%;
+  transform:scale(1.0);
+  transition:1s ease all;
+}
+
+.exhibition ul li {
+  overflow: hidden;
+}
+.exhibition ul .wid1{
+  width: 188px;
+  height: 238px;
+}
+.exhibition ul .wid2 {
+  width: 254px;
+  height: 238px;
+}
+.exhibition ul .wid3 {
+  width: 414px;
+  height: 476px;
+}
+.exhibition ul .wid4 {
+  width: 330px;
+  height: 476px;
+}
+.fashion {
+    width: 100%;
+    position: relative;
+    margin-top:20px;
+}
+.fashion .imgBox img {
+    width:100%;
+    height:100%;
+    display: block;
+}
+.fashion .num {
+    width:1230px;
+    position: absolute;
+    bottom: -25px;
+    left: 50%;
+    margin-left: -615px;
+}
+.fashion .num li {
+    float: left;
+    width:400px;
+    height: 70px;
+    background:#7edab2;
+    text-align: center;
+    line-height: 70px;
+    margin:0 5px;
+    border-radius: 10px;
+}
+.fashion .num li a{
+  color:#222;
+}
+.fashion .left{
+  display: block;
+  width:32px;
+  height:32px;
+  text-align: center;
+  line-height: 32px;
+  background:#fff;
+  opacity: 0.5;
+  position: absolute;
+  left: 0;
+  top:50%;
+  margin-top:-16px;
+  border-radius: 50%
+}
+.fashion .right{
+  display: block;
+  width:32px;
+  height:32px;
+  text-align: center;
+  line-height: 32px;
+  background:#fff;
+  opacity: 0.5;
+  position: absolute;
+  right: 0;
+  top:50%;
+  margin-top:-16px;
+  border-radius: 50%
+}
+.fashion .num .link {
+    background:pink;
+}
+.tt{
+  margin-top:80px;
+}
+.con-bg{
+  height: 960px;
+  min-width:1200px;
+  background:#f4f4f4;
+  margin-top:88px;
+  padding-top:1px;
+}
+.con-bg .con-kinds ul li{
+  width:239px;
+  height: 334px;
+  float: left;
+  margin-left: 1px;
+  position: relative;
+}
+.con-bg .con-kinds ul li img{
+  width:100%;
+  height: 100%;
+}
+.con-bg .con-kinds ul{
+  margin-left: -1px;
+  margin-top: 30px;
+}
+.look{
+  width: 230px;
+  height: 45px;
+  background: #000;
+  text-align: center;
+  line-height: 45px;
+  font-weight: bold;
+  border-radius: 25px;
+  margin:40px auto;
+}
+.look a{
+  display: block;
+  color: #fff;
+}
+.con-bg .con-kinds ul li .test{
+  width:100%;
+  height: 100%;
+  position: absolute;
+  top:0;
+  left: 0;
+  display: none;
+}
+.con-bg .con-kinds ul li .test .test-bg{
+  width:100%;
+  height: 100%;
+  position: absolute;
+  top:0;
+  left: 0;
+  background: #000;
+  opacity: 0.5;
+}
+.con-bg .con-kinds ul li .test .test-font{
+  width:129px;
+  height: 107px;
+  text-align: center;
+  border:1px solid #fff;
+  position: absolute;
+  top:103px;
+  left:55px;
+  border-radius: 50%;
+  padding-top: 22px;
+}
+.con-bg .con-kinds ul li .test .test-font img{
+  width: 38px;
+  height: 32px;
+  margin:0 auto;
+}
+.con-bg .con-kinds ul li .test .test-font p{
+  font-size:12px;
+  color: #fff;
+  line-height: 18px;
+}
+.movie ul li{
+  float: left;
+  margin-left: 39px;
+  position: relative;
+  width:370px;
+  height: 240px;
+}
+.movie ul li img{
+  width: 100%;
+  height: 100%;
+}
+.movie ul{
+  margin-left: -39px;
+  margin-top: 46px;
+}
+.movie ul li .son{
+  width:100%;
+  height: 100%;
+  background: rgba(0,0,0,.5);
+  position: absolute;
+  top:0;
+  left: 0;
+  display: none;
+}
+.movie ul li .son p{
+  width:64px;
+  height: 64px;
+  text-align: center;
+  line-height: 64px;
+  border:1px solid #fff;
+  color: #fff;
+  border-radius: 50%;
+  margin:25% auto;
+}
+.dynamic{
+  min-width: 1200px;
+  height: 598px;
+  background: #f4f4f4;
+  margin-top: 40px;
+  padding-top: 1px;
+}
+.dynamic .dy-con ul li{
+  width: 554px;
+  float: left;
+  margin-left: 50px;
+  margin-top: 66px;
+}
+.dynamic .dy-con ul{
+  margin-left: -50px;
+  margin-top: -34px;
+}
+.dynamic .dy-con ul li .dy-con1{
+  width:93px;
+}
+.dynamic .dy-con ul li .dy-con2{
+  width:444px;
+}
+.dynamic .dy-con ul li .dy-con2 h2{
+  font-size:18px;
+  color: #000;
+  margin-top:4px;
+  font-weight: normal;
+}
+.dynamic .dy-con ul li .dy-con2 span{
+  font-size:12px;
+  color: #cfbecf;
+}
+.dynamic .dy-con ul li .dy-con2 b{
+  font-size:12px;
+  color: #666;
+  font-weight: normal;
+}
+.dynamic .dy-con ul li .dy-con2 .vis{
+  margin-left: 24px;
+}
+.dynamic .dy-con ul li .dy-con2 p{
+  font-size:12px;
+  color: #717171;
+  line-height: 20px;
+}
+.me img{
+  margin-top:20px;
+}
+

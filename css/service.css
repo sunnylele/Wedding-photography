@@ -1,0 +1,73 @@
+.price ul li{
+	float: left;
+	width: 368px;
+	height: 436px;
+	position: relative;
+	margin-left: 46px;
+	margin-top: 48px;
+}
+.price{
+	overflow: hidden;
+}
+.price ul{
+	margin-left: -46px;
+	display: none;
+	height: 1015px;
+	border-bottom: 1px solid #000;
+}
+.price .show{
+	display: block;
+}
+.price ul li .Package{
+	width: 351px;
+	height: 64px;
+	line-height: 64px;
+	padding-left: 16px;
+	position: absolute;
+	left: 0;
+	bottom:68px;
+	background:rgba(0,0,0,.5);
+}
+.price ul li .Package .bac{
+	width:100%;
+	height: 0;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	transition: .7s all ease;
+	background:rgba(126,218,178,.6);
+}
+.price ul li .Package:hover .bac{
+	height: 100%;
+}
+.price ul li .Package span{
+	font-size: 18px;
+	color:#fff;
+    position: relative;
+    z-index: 1111;
+}
+.price ul li .Package b{
+	font-size: 28px;
+	color:#fff;
+	font-weight: normal;
+	margin-left: 130px;
+	position: relative;
+	z-index: 1111;
+}
+.price ul li .person{
+	width: 349px;
+	padding-left: 16px;
+	height: 68px;
+	border:1px solid #ccc;
+}
+.price ul li .person p{
+	height: 45px;
+	line-height: 45px;
+	background:url(../images/se-bg.jpg) no-repeat;
+	padding-left: 60px;
+	margin-top: 14px;
+
+}
+.price ul li .person p img{
+	display: inline-block;
+}

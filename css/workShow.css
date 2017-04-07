@@ -1,0 +1,58 @@
+
+.work{
+	overflow: hidden;
+}
+.work ul li{
+	width: 385px;
+	height: 550px;
+	float: left;
+	position: relative;
+	margin-left: 20px;
+	margin-top: 21px;
+}
+.work ul li img{
+	width: 100%;
+	height: 100%;
+}
+.work ul{
+	height: 1750px;
+	margin-left: -20px;
+	margin-top: 30px;
+	border-bottom: 1px solid #000;
+}
+.work ul li .theme{
+	width: 385px;
+	height: 80px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.work ul li .theme:hover{
+	background:rgba(255,0,255,.5);
+	transition: .8s all ease;
+}
+.work ul li .theme .theme-son{
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,.5);
+}
+.work ul li .theme .theme-son h2{
+	font-size: 30px;
+	color:#fff;
+	margin-left: 20px;
+	line-height: 50px;
+	font-weight: normal;
+}
+.work ul li .theme .theme-son p{
+	font-size: 14px;
+	color:#fff;
+	margin-left: 20px;
+}
+.work ul{
+	display: none;
+}
+.work .show{
+	display: block;
+}
+
+
